@@ -1,0 +1,20 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "Full Stack MERN app for finding books",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd spine && nodemon server.js\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agunforhire/bookSearch.git"
+  },
+  "author": "James Wilcox",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5"
+  },
+  "homepage": "https://github.com/agunforhire/bookSearch#readme"
+}
